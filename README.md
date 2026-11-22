@@ -4,7 +4,11 @@
 
 ## Projeto de Desenvolvimento Front-End para cadastro e gerenciamento de roupas
 
-Para executar o projeto e a API que lê e grava os dados em `src/data/db.json`, execute:
+
+Verifique se o node.js está instalado em sua máquina, caso não esteja:
+https://nodejs.org/en/download
+
+Para executar o projeto, abra-o no VS Code e execute os seguintes comandos:
 
 ### `npm install`
 ### `npm run dev`
@@ -12,6 +16,5 @@ Para executar o projeto e a API que lê e grava os dados em `src/data/db.json`, 
 Login: teste
 Senha: teste
 
-Em caso de erro ao executar o comando acima, use o seguinte comando:
+Em caso de erro ao executar o comando acima, use o seguinte no terminal do Windows:
 ### Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-
