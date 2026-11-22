@@ -1,0 +1,84 @@
+{
+  "usuarios": [
+    {
+      "nome": "Renato Ribeiro Altoé",
+      "usuario": "renato",
+      "senha": "123",
+      "id": 4
+    },
+    {
+      "nome": "teste",
+      "usuario": "teste",
+      "senha": "teste",
+      "id": 5
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "jaqueline",
+      "telefone": "28999786639",
+      "id": 1
+    }
+  ],
+  "vendas": [
+    {
+      "id": 2,
+      "clienteId": 1,
+      "clienteNome": "jaqueline",
+      "itens": [
+        {
+          "roupaId": 1,
+          "nomePeca": "CALÇA ",
+          "tamanho": "45",
+          "quantidade": 1,
+          "valorUnitario": 100
+        },
+        {
+          "roupaId": 2,
+          "nomePeca": "CALÇA ",
+          "tamanho": "48",
+          "quantidade": 1,
+          "valorUnitario": 100
+        }
+      ],
+      "subtotal": 200,
+      "desconto": 50,
+      "total": 150,
+      "data": "2026-10-22T22:48:41.050Z"
+    },
+    {
+      "id": 3,
+      "clienteId": 1,
+      "clienteNome": "jaqueline",
+      "itens": [
+        {
+          "roupaId": 1,
+          "nomePeca": "CALÇA ",
+          "tamanho": "45",
+          "quantidade": 1,
+          "valorUnitario": 100
+        }
+      ],
+      "subtotal": 100,
+      "desconto": 10,
+      "total": 90,
+      "data": "2026-11-22T10:41:08.370Z"
+    }
+  ],
+  "roupas": [
+    {
+      "nomePeca": "CALÇA ",
+      "tamanho": "45",
+      "valor": 100,
+      "quantidade": 18,
+      "id": 1
+    },
+    {
+      "nomePeca": "CALÇA ",
+      "tamanho": "48",
+      "valor": 100,
+      "quantidade": 19,
+      "id": 2
+    }
+  ]
+}

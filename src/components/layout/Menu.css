@@ -1,0 +1,18 @@
+.menu-layout {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: stretch;
+    float: none !important;
+    width: 100%;
+    min-width: 0;
+}
+
+.menu-layout > .sidebar {
+    flex: 0 0 22vw;
+    min-width: 125px;
+}
+
+.menu-layout > #mainPage {
+    flex: 1 1 0%;
+    min-width: 0;
+}
