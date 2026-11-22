@@ -4,18 +4,14 @@
 
 ## Projeto de Desenvolvimento Front-End para cadastro e gerenciamento de roupas
 
-Comandos necessários para a criação do projeto:
-### `npm create vite@latest` 
-### `npm install react-bootstrap bootstrap`
-### `npm install @babel/plugin-syntax-import-assertions --save-dev`
-### `npm install --save-dev @babel/plugin-syntax-dynamic-import`
-### `npm install axios`
-
 Para executar o projeto e a API que lê e grava os dados em `src/data/db.json`, execute:
 
 ### `npm install`
 ### `npm run dev`
 
-O servidor do Vite disponibiliza a API na mesma porta do aplicativo (por padrão, `5173`). Os cadastros, edições e exclusões são gravados diretamente no arquivo `src/data/db.json`; não é necessário iniciar outro servidor.
+Login: teste
+Senha: teste
 
-Prefira git clone
+Em caso de erro ao executar o comando acima, use o seguinte comando:
+### Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
